@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>London to Faro Flights | Cheap Flight Deals | Dial4UFlights</title>
+  <meta name="description" content="Find London to Faro flights and compare available options for your trip to Portugal. Explore flight information, travel tips and personalised booking support with Dial4UFlights.">
+  <meta name="robots" content="index, follow">
+  <!-- Update this canonical to your final production URL after deployment -->
+  <link rel="canonical" href="https://YOUR-DOMAIN.vercel.app/flights/london-to-faro">
+  
+  <meta property="og:title" content="London to Faro Flights | Cheap Flight Deals | Dial4UFlights">
+  <meta property="og:description" content="Find London to Faro flights and compare available options for your trip to Portugal. Explore flight information, travel tips and personalised booking support with Dial4UFlights.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-DOMAIN.vercel.app/flights/london-to-faro">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555881403-64992de543da?w=1200&q=80">
+  <meta property="og:locale" content="en_GB">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="London to Faro Flights | Cheap Flight Deals | Dial4UFlights">
+  <meta name="twitter:description" content="Find London to Faro flights and compare available options for your trip to Portugal.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1555881403-64992de543da?w=1200&q=80">
+  
+  <style>
+    :root {
+      --primary: #0a3d5c;
+      --primary-dark: #062a40;
+      --accent: #e8a317;
+      --accent-hover: #d4920f;
+      --text: #1a1a1a;
+      --text-muted: #4a5568;
+      --bg: #ffffff;
+      --bg-soft: #f8fafc;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+      font-size: 16.5px;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; }
+    
+    .site-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 0.7rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 2px 12px rgba(0,0,0,.18);
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .logo { font-weight: 800; font-size: 1.2rem; color: #fff; letter-spacing: -0.03em; }
+    .logo span { color: var(--accent); }
+    .header-actions { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; }
+    .phone-link { color: #fff; font-weight: 600; font-size: 0.95rem; white-space: nowrap; }
+    .phone-link:hover { color: var(--accent); text-decoration: none; }
+    
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+      padding: 0.75rem 1.4rem; border-radius: 8px; font-weight: 650; font-size: 0.95rem;
+      border: none; cursor: pointer; transition: background .2s, transform .15s, box-shadow .2s;
+      text-decoration: none; line-height: 1.2;
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-1px); }
+    .btn-primary { background: var(--accent); color: #1a1a1a; box-shadow: 0 2px 8px rgba(232,163,23,.35); }
+    .btn-primary:hover { background: var(--accent-hover); color: #1a1a1a; }
+    .btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,.75); }
+    .btn-outline:hover { background: rgba(255,255,255,.12); border-color: #fff; color: #fff; }
+    
+    .hero {
+      position: relative; color: #fff; padding: 3.75rem 0 4.25rem; overflow: hidden;
+      background: linear-gradient(145deg, #062a40 0%, #0a4d6e 55%, #0d5f82 100%);
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background: url("https://images.unsplash.com/photo-1555881403-64992de543da?w=1600&q=75&auto=format") center/cover no-repeat;
+      opacity: 0.32;
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 680px; }
+    .breadcrumb { font-size: 0.84rem; margin-bottom: 1.15rem; opacity: 0.92; }
+    .breadcrumb a { color: #fff; }
+    .breadcrumb span { opacity: 0.7; }
+    .eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.6rem; }
+    .hero h1 {
+      font-size: clamp(1.95rem, 5vw, 2.85rem); font-weight: 800; line-height: 1.18;
+      margin-bottom: 1rem; letter-spacing: -0.025em;
+    }
+    .hero-lead { font-size: 1.12rem; opacity: 0.95; margin-bottom: 1.75rem; line-height: 1.55; max-width: 560px; }
+    .hero-ctas { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-bottom: 1.4rem; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 1.35rem; font-size: 0.88rem; opacity: 0.88; }
+    .hero-meta span::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    
+    section { padding: 3.4rem 0; }
+    section.alt { background: var(--bg-soft); }
+    h2 { font-size: clamp(1.4rem, 3.2vw, 1.8rem); font-weight: 750; color: var(--primary); margin-bottom: 1.1rem; line-height: 1.28; }
+    h3 { font-size: 1.15rem; font-weight: 650; margin: 1.4rem 0 0.55rem; color: var(--primary-dark); }
+    p { margin-bottom: 0.95rem; color: var(--text); }
+    ul, ol { margin: 0.7rem 0 1.15rem 1.35rem; }
+    li { margin-bottom: 0.4rem; }
+    
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.15rem; margin: 1.4rem 0; }
+    .card {
+      background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1.3rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,.04); transition: box-shadow .2s;
+    }
+    .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.07); }
+    .card h3 { margin-top: 0; font-size: 1.08rem; }
+    .card p:last-child { margin-bottom: 0; }
+    
+    .snapshot {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.9rem; margin: 1.5rem 0;
+    }
+    .snap-item {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.1rem 0.9rem; text-align: center;
+    }
+    .snap-item strong { display: block; color: var(--primary); font-size: 0.95rem; margin-bottom: 0.2rem; }
+    .snap-item span { font-size: 0.85rem; color: var(--text-muted); }
+    
+    .cta-box {
+      background: linear-gradient(135deg, var(--primary) 0%, #0c5a7a 100%);
+      color: #fff; padding: 1.85rem 1.5rem; border-radius: var(--radius); text-align: center; margin: 2rem 0 0.5rem;
+    }
+    .cta-box p { color: rgba(255,255,255,.95); margin-bottom: 1.1rem; font-size: 1.05rem; }
+    .cta-box .btn { margin: 0.3rem; }
+    
+    .callout {
+      background: #fff9eb; border-left: 4px solid var(--accent); padding: 1rem 1.2rem;
+      border-radius: 0 8px 8px 0; margin: 1.25rem 0;
+    }
+    .callout p { margin-bottom: 0; }
+    
+    .faq-list { margin-top: 0.5rem; }
+    .faq-item { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 0.65rem; overflow: hidden; background: #fff; }
+    .faq-q {
+      width: 100%; text-align: left; background: none; border: none; padding: 1.05rem 1.2rem;
+      font-size: 1.02rem; font-weight: 650; color: var(--primary-dark); cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+      font-family: inherit; line-height: 1.35;
+    }
+    .faq-q:hover { background: var(--bg-soft); }
+    .faq-q::after { content: "+"; font-size: 1.35rem; font-weight: 400; color: var(--primary); flex-shrink: 0; }
+    .faq-item.open .faq-q::after { content: "−"; }
+    .faq-a { display: none; padding: 0 1.2rem 1.15rem; color: var(--text-muted); font-size: 0.97rem; }
+    .faq-item.open .faq-a { display: block; }
+    
+    .trust-strip {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem;
+      margin: 1.5rem 0; text-align: center;
+    }
+    .trust-item {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.1rem 0.9rem;
+    }
+    .trust-item strong { display: block; color: var(--primary); font-size: 0.95rem; margin-bottom: 0.25rem; }
+    .trust-item span { font-size: 0.85rem; color: var(--text-muted); }
+    
+    .season-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.4rem 0; }
+    .season-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; }
+    .season-card h3 { margin-top: 0; font-size: 1.1rem; }
+    
+    .checklist { list-style: none; margin-left: 0; }
+    .checklist li { padding-left: 1.6rem; position: relative; margin-bottom: 0.55rem; }
+    .checklist li::before { content: "✓"; position: absolute; left: 0; color: #2f855a; font-weight: 700; }
+    
+    footer {
+      background: var(--primary-dark); color: rgba(255,255,255,.88); padding: 2.6rem 0 1.4rem; font-size: 0.92rem;
+    }
+    footer a { color: #fff; }
+    footer a:hover { color: var(--accent); }
+    .footer-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.75rem; margin-bottom: 1.75rem;
+    }
+    .footer-grid strong { display: block; color: #fff; margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.14); padding-top: 1.2rem; text-align: center; font-size: 0.84rem; opacity: 0.8;
+    }
+    
+    .sticky-cta {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 150;
+      background: var(--primary); padding: 0.7rem 1rem; box-shadow: 0 -4px 16px rgba(0,0,0,.2);
+      gap: 0.6rem; justify-content: center;
+    }
+    .sticky-cta .btn { flex: 1; max-width: 180px; padding: 0.7rem 1rem; font-size: 0.9rem; }
+    
+    @media (max-width: 640px) {
+      .hero { padding: 2.6rem 0 3.2rem; }
+      .hero-ctas { flex-direction: column; }
+      .hero-ctas .btn { width: 100%; }
+      .header-actions { width: 100%; }
+      section { padding: 2.4rem 0; }
+      .cta-box .btn { display: block; width: 100%; margin: 0.4rem 0; }
+      .sticky-cta { display: flex; }
+      body { padding-bottom: 70px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "London to Faro Flights | Cheap Flight Deals | Dial4UFlights",
+    "description": "Find London to Faro flights and compare available options for your trip to Portugal. Explore flight information, travel tips and personalised booking support with Dial4UFlights.",
+    "url": "https://YOUR-DOMAIN.vercel.app/flights/london-to-faro",
+    "inLanguage": "en-GB",
+    "isPartOf": { "@type": "WebSite", "name": "Dial4UFlights", "url": "https://dial4uflights.co.uk/" },
+    "about": { "@type": "Thing", "name": "London to Faro flights" },
+    "primaryImageOfPage": { "@type": "ImageObject", "url": "https://images.unsplash.com/photo-1555881403-64992de543da?w=1200" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dial4uflights.co.uk/" },
+      { "@type": "ListItem", "position": 2, "name": "London to Faro Flights" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dial4UFlights",
+    "legalName": "Flycation Limited",
+    "url": "https://dial4uflights.co.uk/",
+    "telephone": "+442038317712",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "167-169 Great Portland Street",
+      "addressLocality": "London",
+      "postalCode": "W1W 5PF",
+      "addressCountry": "GB"
+    },
+    "identifier": { "@type": "PropertyValue", "name": "Company Number", "value": "14100185" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Dial4UFlights",
+    "url": "https://dial4uflights.co.uk/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How can I find London to Faro flights?", "acceptedAnswer": { "@type": "Answer", "text": "You can search for London to Faro flights by comparing departure airports, travel dates, number of passengers and preferred cabin class. Use the search tools on Dial4UFlights or speak with a flight expert for personalised assistance." } },
+      { "@type": "Question", "name": "Which London airports can I use for Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Flights to Faro (FAO) are commonly available from London Heathrow (LHR), London Gatwick (LGW), London Stansted (STN) and London Luton (LTN). Availability depends on the season, airline and specific travel dates." } },
+      { "@type": "Question", "name": "What airport do flights to Faro use?", "acceptedAnswer": { "@type": "Answer", "text": "Flights to Faro arrive at Faro Airport, which has the IATA code FAO. The airport is located a short distance from Faro city centre and serves the wider Algarve region." } },
+      { "@type": "Question", "name": "What is Faro Airport's code?", "acceptedAnswer": { "@type": "Answer", "text": "The airport code for Faro is FAO." } },
+      { "@type": "Question", "name": "Are there direct flights from London to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Direct (non-stop) flights from London to Faro operate regularly, with higher frequency during the summer season. Availability varies by departure airport, airline and travel date." } },
+      { "@type": "Question", "name": "How long is a London to Faro flight?", "acceptedAnswer": { "@type": "Answer", "text": "A typical non-stop London to Faro flight takes approximately 2 hours 45 minutes to 3 hours 10 minutes. Connecting flights take longer depending on the layover." } },
+      { "@type": "Question", "name": "How can I find cheap flights from London to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Compare different London airports, remain flexible with travel dates, check both direct and connecting options, review baggage allowances and book earlier for popular summer periods. Always compare total journey cost and time together." } },
+      { "@type": "Question", "name": "Can I book one-way flights from London to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, one-way flights from London to Faro are generally available. Many travellers also book return itineraries. Fare rules and baggage conditions can differ between one-way and return tickets." } },
+      { "@type": "Question", "name": "Can I book return flights from London to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, return flights between London and Faro are widely available. Return tickets can sometimes offer better overall value depending on the airline and dates selected." } },
+      { "@type": "Question", "name": "Can I book Business Class flights from London to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Business Class options may be available on certain airlines and routes. Availability, seating and included benefits vary by carrier. A flight expert can help identify suitable premium cabin options." } },
+      { "@type": "Question", "name": "Does baggage affect the total fare?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Many low-cost and some scheduled fares include only a small cabin bag. Adding checked baggage usually increases the total price. Always compare the final price including the baggage you need." } },
+      { "@type": "Question", "name": "When is a good time to travel to Faro?", "acceptedAnswer": { "@type": "Answer", "text": "Summer is the peak season with the highest temperatures and busiest beaches. Spring and autumn often offer a good balance of milder weather and fewer crowds. Flight frequencies are generally highest in summer." } },
+      { "@type": "Question", "name": "How far is Faro Airport from Faro city?", "acceptedAnswer": { "@type": "Answer", "text": "Faro Airport (FAO) is approximately 4–10 km from Faro city centre. Transfer time is typically 10–15 minutes by road under normal conditions." } },
+      { "@type": "Question", "name": "Can I use Faro Airport to reach other Algarve destinations?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Faro Airport is the main gateway to the Algarve. Popular destinations such as Albufeira, Vilamoura, Lagos, Portimão and Tavira are accessible by road transfer, taxi, car hire or public transport." } },
+      { "@type": "Question", "name": "How can I compare flight options?", "acceptedAnswer": { "@type": "Answer", "text": "Compare departure airports, total journey time, number of stops, baggage allowance, fare conditions and cabin class. Use the search tools on Dial4UFlights or speak with a flight expert for personalised guidance." } },
+      { "@type": "Question", "name": "Can I get help choosing a suitable flight?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can search available options on Dial4UFlights or call a UK-based flight expert on +44 20 3831 7712 for personalised assistance with dates, airports, cabin class and baggage requirements." } },
+      { "@type": "Question", "name": "How can I contact Dial4UFlights?", "acceptedAnswer": { "@type": "Answer", "text": "You can contact Dial4UFlights by telephone on +44 20 3831 7712 or visit the main website at dial4uflights.co.uk. The company is operated by Flycation Limited, Company Number 14100185, with registered office at 167-169 Great Portland Street, London W1W 5PF." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="https://dial4uflights.co.uk/" class="logo" rel="noopener">Dial4U<span>Flights</span></a>
+      <div class="header-actions">
+        <a href="tel:+442038317712" class="phone-link">+44 20 3831 7712</a>
+        <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" role="img" aria-label="Algarve coastline near Faro, Portugal"></div>
+    <div class="container">
+      <div class="hero-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="https://dial4uflights.co.uk/" rel="noopener">Home</a>
+          <span> › </span>
+          <span>London to Faro Flights</span>
+        </nav>
+        <p class="eyebrow">Flights from London</p>
+        <h1>London to Faro Flights</h1>
+        <p class="hero-lead">Explore London to Faro flights and compare available options for your journey to Portugal. Discover useful route information and get personalised assistance from Dial4UFlights.</p>
+        <div class="hero-ctas">
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+          <a href="tel:+442038317712" class="btn btn-outline">Call a Flight Expert</a>
+        </div>
+        <div class="hero-meta">
+          <span>UK-based support</span>
+          <span>Compare options</span>
+          <span>Personalised assistance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" style="margin-top:-1.5rem; position:relative; z-index:5;">
+    <div class="trust-strip" style="background:transparent; margin:0;">
+      <div class="trust-item"><strong>UK Flight Experts</strong><span>Personalised help</span></div>
+      <div class="trust-item"><strong>Personalised Assistance</strong><span>Route guidance</span></div>
+      <div class="trust-item"><strong>Flight Search Support</strong><span>Compare options</span></div>
+      <div class="trust-item"><strong>Easy Enquiry</strong><span>Call or search online</span></div>
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2>Flights from London to Faro</h2>
+        <p>London to Faro flights are one of the most popular routes for UK travellers heading to Portugal’s Algarve region. Faro Airport (FAO) serves as the main gateway to the southern Portuguese coast, giving easy access to historic Faro itself as well as the wider Algarve.</p>
+        <p>Whether you are planning a beach holiday, a short city break or a longer stay exploring the region, understanding the route options helps you choose the most suitable itinerary. Direct flights operate regularly from several London airports, with additional connecting options available when needed.</p>
+        <p>When comparing flights from London to Faro, consider departure airport, total journey time, baggage allowance and cabin class. Demand is strongest during the summer months and UK school holidays, so early planning often provides a wider choice of schedules and fare types.</p>
+        <p>Dial4UFlights helps UK travellers explore available options and receive personalised support when selecting flights to Faro and the Algarve.</p>
+        
+        <div class="snapshot">
+          <div class="snap-item"><strong>From</strong><span>London</span></div>
+          <div class="snap-item"><strong>To</strong><span>Faro</span></div>
+          <div class="snap-item"><strong>Destination</strong><span>Portugal</span></div>
+          <div class="snap-item"><strong>Airport</strong><span>FAO</span></div>
+          <div class="snap-item"><strong>Region</strong><span>Algarve</span></div>
+        </div>
+        
+        <div class="cta-box">
+          <p><strong>Ready to explore flight options?</strong></p>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search London to Faro Flights</a>
+          <a href="tel:+442038317712" class="btn btn-outline">Call +44 20 3831 7712</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>London Airports for Faro Flights</h2>
+        <p>Several London airports handle flights to Faro (FAO). Availability changes by season, airline and travel date, so it is useful to check more than one departure point.</p>
+        
+        <div class="card-grid">
+          <div class="card">
+            <h3>London Heathrow (LHR)</h3>
+            <p>Heathrow offers scheduled services to Faro with British Airways on many dates. Convenient for travellers in west or central London and those connecting from other cities.</p>
+          </div>
+          <div class="card">
+            <h3>London Gatwick (LGW)</h3>
+            <p>Gatwick is one of the busiest airports for Faro flights, with frequent services from easyJet, British Airways and others. A practical choice for many passengers in south London and surrounding areas.</p>
+          </div>
+          <div class="card">
+            <h3>London Stansted (STN)</h3>
+            <p>Stansted is regularly used by leisure and low-cost carriers serving Faro. Direct seasonal and year-round options have been available depending on the airline programme.</p>
+          </div>
+          <div class="card">
+            <h3>London Luton (LTN)</h3>
+            <p>Luton also features regularly in Faro schedules. It can be a convenient option depending on where you live and the specific flight times available.</p>
+          </div>
+        </div>
+        <p>Because schedules change, always verify the current departure airport for your preferred dates. Comparing total door-to-door time often matters as much as the scheduled flight duration.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Faro Airport (FAO)</h2>
+        <p>Faro Airport (IATA: FAO) is the main international airport for the Algarve. It is located a short distance west of Faro city centre — typically around 4–10 km depending on the exact destination within the city.</p>
+        <p>Under normal conditions the road transfer to Faro city centre takes approximately 10–15 minutes. The airport also serves as the primary arrival point for travellers heading to other Algarve destinations such as Albufeira, Vilamoura, Lagos, Portimão and Tavira.</p>
+        
+        <h3>Getting from FAO to your accommodation</h3>
+        <ul>
+          <li><strong>Taxi or private transfer</strong> — the most straightforward door-to-door option, especially with luggage or for late arrivals.</li>
+          <li><strong>Public bus</strong> — regular services operate between the airport and Faro city; further connections are available to other Algarve towns.</li>
+          <li><strong>Car hire</strong> — available at the airport for travellers who prefer independent mobility around the region.</li>
+        </ul>
+        <p>Planning your transfer in advance is advisable during peak summer periods when demand is highest.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Cheap Flights from London to Faro</h2>
+        <p>Travellers looking for cheap flights from London to Faro can improve their chances of finding suitable fares by taking a flexible approach to dates, airports and itinerary type.</p>
+        <p>Useful steps include:</p>
+        <ul>
+          <li>Comparing prices across Heathrow, Gatwick, Stansted and Luton for the same travel window.</li>
+          <li>Checking both mid-week and weekend departures — leisure demand often raises weekend fares.</li>
+          <li>Looking at shoulder periods either side of the main school holiday peaks.</li>
+          <li>Weighing non-stop flights against one-stop connections when total journey time and price are considered together.</li>
+          <li>Reviewing baggage rules carefully — a low base fare can become less competitive once checked bags are added.</li>
+          <li>Comparing the full cost of one-way versus return tickets under the same conditions.</li>
+        </ul>
+        
+        <div class="callout">
+          <p><strong>Smart fare tip:</strong> Focus on the total price including the baggage you actually need, plus realistic transfer time at FAO, rather than the headline fare alone.</p>
+        </div>
+        
+        <div class="cta-box">
+          <p>Compare current options for your dates</p>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights on Dial4UFlights</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Direct Flights from London to Faro</h2>
+        <p>Direct (non-stop) flights from London to Faro operate regularly. Capacity is generally highest during the summer months when leisure demand for the Algarve peaks, but year-round services are also available on many routes.</p>
+        <p>Airlines and exact frequencies vary by departure airport and season. Direct services have been offered from Heathrow, Gatwick, Stansted and Luton depending on the airline programme and time of year.</p>
+        <p>Typical non-stop flight time is approximately 2 hours 45 minutes to 3 hours 10 minutes. Always confirm the current schedule for your specific dates, as programmes are subject to change.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>London to Faro Flight Time</h2>
+        <p>A typical non-stop London to Faro flight lasts around three hours. Scheduled block times commonly fall between 2 hours 45 minutes and 3 hours 10 minutes, depending on departure airport, aircraft type and winds.</p>
+        <p>Connecting flights add the duration of the layover plus any extra flying time on the second sector. When evaluating options, look at total journey time, minimum connection time, whether bags are checked through to FAO, and arrival time at the airport.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>One-Way and Return Flights from London to Faro</h2>
+        <p>Both one-way and return flights from London to Faro are available. Many holidaymakers book a return ticket for simplicity and, in some cases, better overall value. Others prefer the flexibility of separate one-way tickets.</p>
+        <p>Key points to compare: total price of a return versus two one-way tickets, baggage allowance on each sector, change and cancellation rules, and whether the outbound and inbound flights are with the same airline or partners.</p>
+        <div class="cta-box">
+          <p>Explore flight options for your dates</p>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Business Class Flights from London to Faro</h2>
+        <p>Business Class options on the London–Faro route depend on the airline and whether the itinerary is non-stop or connecting. On some carriers, premium cabin seats are offered on selected services.</p>
+        <p>Typical Business Class benefits (where available) can include more spacious seating, enhanced meal service, increased baggage allowance, priority check-in and boarding, and lounge access at participating airports. Products differ significantly between airlines.</p>
+        <div class="cta-box">
+          <p>Discuss Business Class options with a UK flight expert</p>
+          <a href="tel:+442038317712" class="btn btn-primary">Call +44 20 3831 7712</a>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-outline" rel="noopener">Search Flights</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>When to Travel to Faro</h2>
+        <div class="season-grid">
+          <div class="season-card">
+            <h3>Spring</h3>
+            <p>Mild temperatures, fewer crowds and pleasant conditions for exploring Faro Old Town and the Ria Formosa. A good shoulder season for many travellers.</p>
+          </div>
+          <div class="season-card">
+            <h3>Summer</h3>
+            <p>Peak season with the warmest weather and busiest beaches. Highest flight demand and the widest range of schedules. Book earlier for popular dates.</p>
+          </div>
+          <div class="season-card">
+            <h3>Autumn</h3>
+            <p>Still warm in early autumn with reducing crowds. Often a comfortable time for sightseeing and outdoor activities across the Algarve.</p>
+          </div>
+          <div class="season-card">
+            <h3>Winter</h3>
+            <p>Milder than the UK, quieter resorts and lower overall demand. Flight frequencies may reduce on some routes, so check current schedules carefully.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Faro Travel Guide</h2>
+        <p>Faro is the capital of the Algarve and offers a mix of historic charm, coastal scenery and easy access to the wider region. The walled Old Town (Cidade Velha) is a highlight, with narrow streets, the cathedral and the Arco da Vila gateway.</p>
+        <p>Nearby, the Ria Formosa Natural Park provides lagoons, islands and boat trips. The marina area and surrounding streets offer restaurants serving fresh seafood and traditional Portuguese dishes.</p>
+        <p>Many visitors use Faro as a base or as a convenient arrival point before continuing to beach resorts along the Algarve coastline.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Explore the Algarve from Faro</h2>
+        <p>Faro Airport is the main gateway to the Algarve. Popular destinations accessible by road transfer include Albufeira, Vilamoura, Lagos, Portimão, Tavira and Loulé. Distances and transfer times vary, so it is useful to plan your onward journey when choosing flight arrival times.</p>
+        <div class="card-grid">
+          <div class="card"><h3>Albufeira</h3><p>One of the best-known resort towns, popular for beaches and lively atmosphere.</p></div>
+          <div class="card"><h3>Vilamoura</h3><p>Marina, golf and a more upscale resort feel on the central Algarve coast.</p></div>
+          <div class="card"><h3>Lagos</h3><p>Historic town with dramatic cliffs, beaches and a vibrant old centre further west.</p></div>
+          <div class="card"><h3>Tavira</h3><p>Charming town on the eastern Algarve with a more relaxed atmosphere and nearby islands.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Why Travellers Choose Faro</h2>
+        <div class="card-grid">
+          <div class="card"><h3>Algarve access</h3><p>Ideal arrival point for the whole southern Portuguese coast.</p></div>
+          <div class="card"><h3>Mediterranean-style coastline</h3><p>Beaches, cliffs and clear waters within easy reach.</p></div>
+          <div class="card"><h3>Historic old town</h3><p>Walled Cidade Velha, cathedral and atmospheric streets.</p></div>
+          <div class="card"><h3>Outdoor activities</h3><p>Boat trips, walking, cycling and Ria Formosa nature experiences.</p></div>
+          <div class="card"><h3>Portuguese food</h3><p>Fresh seafood, regional specialities and relaxed dining.</p></div>
+          <div class="card"><h3>Easy regional base</h3><p>Convenient starting point for day trips across the Algarve.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>How to Find the Right London to Faro Flight</h2>
+        <ol>
+          <li>Choose your preferred London airport (or stay flexible across LHR, LGW, STN and LTN).</li>
+          <li>Select travel dates or a date range if flexible.</li>
+          <li>Compare direct and connecting options.</li>
+          <li>Check baggage allowances carefully.</li>
+          <li>Review cabin class options.</li>
+          <li>Check fare conditions (changes and cancellations).</li>
+          <li>Compare total journey time.</li>
+          <li>Choose the flight that best fits your trip and budget.</li>
+        </ol>
+        <div class="cta-box">
+          <p>Start your search for London to Faro flights</p>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>What to Check Before Booking</h2>
+        <ul class="checklist">
+          <li>Departure airport</li>
+          <li>Arrival airport (FAO)</li>
+          <li>Travel dates</li>
+          <li>Baggage allowance</li>
+          <li>Fare conditions</li>
+          <li>Connection time (if applicable)</li>
+          <li>Cabin class</li>
+          <li>Total journey time</li>
+          <li>Passenger details</li>
+          <li>Change / cancellation conditions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Why Choose Dial4UFlights?</h2>
+        <p>Dial4UFlights is the trading name of Flycation Limited, a UK-registered company (Company Number 14100185). The registered office is at 167-169 Great Portland Street, London W1W 5PF.</p>
+        <p>The service focuses on helping travellers find suitable flight options and providing personalised assistance when needed. You can search available flights or speak directly with a flight expert by telephone on <a href="tel:+442038317712">+44 20 3831 7712</a>.</p>
+        <p>Main website: <a href="https://dial4uflights.co.uk/" rel="noopener">https://dial4uflights.co.uk/</a></p>
+        
+        <div class="cta-box">
+          <p><strong>Planning your trip from London to Faro?</strong><br>Explore available flight options or speak with a flight expert for personalised assistance.</p>
+          <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+          <a href="tel:+442038317712" class="btn btn-outline">Call a Flight Expert</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>London to Faro Flights FAQs</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How can I find London to Faro flights?</button>
+            <div class="faq-a">You can search for London to Faro flights by comparing departure airports, travel dates, number of passengers and preferred cabin class. Use the search tools on Dial4UFlights or speak with a flight expert for personalised assistance.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Which London airports can I use for Faro?</button>
+            <div class="faq-a">Flights to Faro (FAO) are commonly available from London Heathrow (LHR), London Gatwick (LGW), London Stansted (STN) and London Luton (LTN). Availability depends on the season, airline and specific travel dates.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">What airport do flights to Faro use?</button>
+            <div class="faq-a">Flights to Faro arrive at Faro Airport, which has the IATA code FAO. The airport is located a short distance from Faro city centre and serves the wider Algarve region.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">What is Faro Airport's code?</button>
+            <div class="faq-a">The airport code for Faro is FAO.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Are there direct flights from London to Faro?</button>
+            <div class="faq-a">Direct (non-stop) flights from London to Faro operate regularly, with higher frequency during the summer season. Availability varies by departure airport, airline and travel date.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How long is a London to Faro flight?</button>
+            <div class="faq-a">A typical non-stop London to Faro flight takes approximately 2 hours 45 minutes to 3 hours 10 minutes. Connecting flights take longer depending on the layover.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How can I find cheap flights from London to Faro?</button>
+            <div class="faq-a">Compare different London airports, remain flexible with travel dates, check both direct and connecting options, review baggage allowances and book earlier for popular summer periods. Always compare total journey cost and time together.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Can I book one-way flights from London to Faro?</button>
+            <div class="faq-a">Yes, one-way flights from London to Faro are generally available. Many travellers also book return itineraries. Fare rules and baggage conditions can differ between one-way and return tickets.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Can I book return flights from London to Faro?</button>
+            <div class="faq-a">Yes, return flights between London and Faro are widely available. Return tickets can sometimes offer better overall value depending on the airline and dates selected.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Can I book Business Class flights from London to Faro?</button>
+            <div class="faq-a">Business Class options may be available on certain airlines and routes. Availability, seating and included benefits vary by carrier. A flight expert can help identify suitable premium cabin options.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Does baggage affect the total fare?</button>
+            <div class="faq-a">Yes. Many low-cost and some scheduled fares include only a small cabin bag. Adding checked baggage usually increases the total price. Always compare the final price including the baggage you need.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">When is a good time to travel to Faro?</button>
+            <div class="faq-a">Summer is the peak season with the highest temperatures and busiest beaches. Spring and autumn often offer a good balance of milder weather and fewer crowds. Flight frequencies are generally highest in summer.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How far is Faro Airport from Faro city?</button>
+            <div class="faq-a">Faro Airport (FAO) is approximately 4–10 km from Faro city centre. Transfer time is typically 10–15 minutes by road under normal conditions.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Can I use Faro Airport to reach other Algarve destinations?</button>
+            <div class="faq-a">Yes. Faro Airport is the main gateway to the Algarve. Popular destinations such as Albufeira, Vilamoura, Lagos, Portimão and Tavira are accessible by road transfer, taxi, car hire or public transport.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How can I compare flight options?</button>
+            <div class="faq-a">Compare departure airports, total journey time, number of stops, baggage allowance, fare conditions and cabin class. Use the search tools on Dial4UFlights or speak with a flight expert for personalised guidance.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Can I get help choosing a suitable flight?</button>
+            <div class="faq-a">Yes. You can search available options on Dial4UFlights or call a UK-based flight expert on +44 20 3831 7712 for personalised assistance with dates, airports, cabin class and baggage requirements.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How can I contact Dial4UFlights?</button>
+            <div class="faq-a">You can contact Dial4UFlights by telephone on +44 20 3831 7712 or visit the main website at dial4uflights.co.uk. The company is operated by Flycation Limited, Company Number 14100185, with registered office at 167-169 Great Portland Street, London W1W 5PF.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Dial4UFlights</strong>
+          <p>Trading name of Flycation Limited<br>Company No. 14100185<br>167-169 Great Portland Street<br>London W1W 5PF</p>
+        </div>
+        <div>
+          <strong>Contact</strong>
+          <p><a href="tel:+442038317712">+44 20 3831 7712</a><br>
+          <a href="https://dial4uflights.co.uk/" rel="noopener">dial4uflights.co.uk</a></p>
+        </div>
+        <div>
+          <strong>Quick links</strong>
+          <p><a href="https://dial4uflights.co.uk/" rel="noopener">Search Flights</a><br>
+          <a href="https://dial4uflights.co.uk/about" rel="noopener">About Us</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>This page provides general information about London to Faro flights. Flight availability, schedules and prices change regularly. Always check current options before booking.</p>
+        <p style="margin-top:0.7rem;">© Flycation Limited. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-cta" aria-label="Mobile quick actions">
+    <a href="https://dial4uflights.co.uk/" class="btn btn-primary" rel="noopener">Search Flights</a>
+    <a href="tel:+442038317712" class="btn btn-outline">Call</a>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
